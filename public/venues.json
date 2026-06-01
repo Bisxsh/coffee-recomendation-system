@@ -4,13 +4,13 @@
     "types": [
       "cafe",
       "coffee_shop",
-      "bakery",
       "dessert_shop",
       "confectionery",
-      "food_store",
+      "bakery",
       "restaurant",
-      "food",
       "point_of_interest",
+      "food_store",
+      "food",
       "store",
       "establishment"
     ],
@@ -22,14 +22,20 @@
       "text": "L'ETO Soho",
       "languageCode": "en"
     },
-    "primaryType": "cafe"
+    "primaryType": "cafe",
+    "tags": [
+      "coffee",
+      "bubble_tea",
+      "bakery",
+      "matcha"
+    ]
   },
   {
     "id": "ChIJ48Eo7dMFdkgRDRR-IKXnm3c",
     "types": [
       "cafe",
-      "food",
       "point_of_interest",
+      "food",
       "establishment"
     ],
     "location": {
@@ -40,17 +46,23 @@
       "text": "EL&N London",
       "languageCode": "en"
     },
-    "primaryType": "cafe"
+    "primaryType": "cafe",
+    "tags": [
+      "coffee",
+      "bubble_tea",
+      "bakery",
+      "matcha"
+    ]
   },
   {
     "id": "ChIJNaE_4TAFdkgR3sm3ondG6U4",
     "types": [
       "coffee_shop",
       "cafe",
-      "food_store",
-      "store",
-      "food",
       "point_of_interest",
+      "food_store",
+      "food",
+      "store",
       "establishment"
     ],
     "location": {
@@ -61,7 +73,11 @@
       "text": "Kiss the Hippo Coffee Soho",
       "languageCode": "en"
     },
-    "primaryType": "coffee_shop"
+    "primaryType": "coffee_shop",
+    "tags": [
+      "coffee",
+      "matcha"
+    ]
   },
   {
     "id": "ChIJsVA9Dg0bdkgRUI0y1Fj9BNI",
@@ -70,10 +86,10 @@
       "cafe",
       "dessert_shop",
       "confectionery",
-      "food_store",
       "restaurant",
-      "food",
       "point_of_interest",
+      "food_store",
+      "food",
       "store",
       "establishment"
     ],
@@ -85,17 +101,22 @@
       "text": "KOZZEE Cafe Soho | Brunch, Coffee & Desserts",
       "languageCode": "en"
     },
-    "primaryType": "brunch_restaurant"
+    "primaryType": "brunch_restaurant",
+    "tags": [
+      "coffee",
+      "bubble_tea",
+      "matcha"
+    ]
   },
   {
     "id": "ChIJS5LZ_1YFdkgRX2NYk7ECFVc",
     "types": [
       "coffee_shop",
       "cafe",
-      "food_store",
-      "store",
-      "food",
       "point_of_interest",
+      "food_store",
+      "food",
+      "store",
       "establishment"
     ],
     "location": {
@@ -106,16 +127,20 @@
       "text": "Sacred Grounds",
       "languageCode": "en"
     },
-    "primaryType": "coffee_shop"
+    "primaryType": "coffee_shop",
+    "tags": [
+      "coffee",
+      "matcha"
+    ]
   },
   {
     "id": "ChIJQVuAyHwFdkgRRONXLgGXyGA",
     "types": [
       "coffee_shop",
       "cafe",
+      "point_of_interest",
       "food_store",
       "food",
-      "point_of_interest",
       "store",
       "establishment"
     ],
@@ -127,17 +152,20 @@
       "text": "Hideaway Coffee House",
       "languageCode": "en"
     },
-    "primaryType": "coffee_shop"
+    "primaryType": "coffee_shop",
+    "tags": [
+      "coffee"
+    ]
   },
   {
     "id": "ChIJG3_r8HMbdkgR9HidOPXWY6k",
     "types": [
       "coffee_shop",
       "cafe",
-      "food_store",
-      "store",
-      "food",
       "point_of_interest",
+      "food_store",
+      "food",
+      "store",
       "establishment"
     ],
     "location": {
@@ -148,16 +176,20 @@
       "text": "Blank Street Coffee",
       "languageCode": "en"
     },
-    "primaryType": "coffee_shop"
+    "primaryType": "coffee_shop",
+    "tags": [
+      "coffee",
+      "matcha"
+    ]
   },
   {
     "id": "ChIJo8lJdMsFdkgRMfDJivt_L7Q",
     "types": [
       "coffee_shop",
       "cafe",
+      "point_of_interest",
       "food_store",
       "food",
-      "point_of_interest",
       "store",
       "establishment"
     ],
@@ -169,14 +201,17 @@
       "text": "The Colombian Coffee Company",
       "languageCode": "en"
     },
-    "primaryType": "coffee_shop"
+    "primaryType": "coffee_shop",
+    "tags": [
+      "coffee"
+    ]
   },
   {
     "id": "ChIJ1aprQ4sFdkgRqFeUrRdrWxk",
     "types": [
       "cafe",
-      "food",
       "point_of_interest",
+      "food",
       "establishment"
     ],
     "location": {
@@ -187,19 +222,22 @@
       "text": "SOS - Stories of Samosas",
       "languageCode": "en"
     },
-    "primaryType": "cafe"
+    "primaryType": "cafe",
+    "tags": [
+      "coffee"
+    ]
   },
   {
     "id": "ChIJF-5VrdQEdkgRqMC6KWJTV9s",
     "types": [
       "cafe",
-      "brunch_restaurant",
-      "breakfast_restaurant",
       "cocktail_bar",
+      "breakfast_restaurant",
+      "brunch_restaurant",
       "bar",
       "restaurant",
-      "food",
       "point_of_interest",
+      "food",
       "establishment"
     ],
     "location": {
@@ -210,14 +248,18 @@
       "text": "Toi & Moi Cafe",
       "languageCode": "en"
     },
-    "primaryType": "cafe"
+    "primaryType": "cafe",
+    "tags": [
+      "coffee",
+      "matcha"
+    ]
   },
   {
     "id": "ChIJmbwcXtMEdkgRGsJkCfnWjgQ",
     "types": [
       "cafe",
-      "food",
       "point_of_interest",
+      "food",
       "establishment"
     ],
     "location": {
@@ -228,7 +270,10 @@
       "text": "Flat White",
       "languageCode": "en"
     },
-    "primaryType": "cafe"
+    "primaryType": "cafe",
+    "tags": [
+      "coffee"
+    ]
   },
   {
     "id": "ChIJX_OPq9QEdkgRwIpAEYl2RYc",
@@ -236,8 +281,8 @@
       "breakfast_restaurant",
       "cafe",
       "restaurant",
-      "food",
       "point_of_interest",
+      "food",
       "establishment"
     ],
     "location": {
@@ -248,22 +293,25 @@
       "text": "The Breakfast Club Soho",
       "languageCode": "en"
     },
-    "primaryType": "breakfast_restaurant"
+    "primaryType": "breakfast_restaurant",
+    "tags": [
+      "coffee"
+    ]
   },
   {
     "id": "ChIJl8b8USsbdkgRwY4c6Yh7udU",
     "types": [
       "restaurant",
-      "brunch_restaurant",
-      "breakfast_restaurant",
-      "cocktail_bar",
       "coffee_shop",
+      "cocktail_bar",
       "cafe",
+      "breakfast_restaurant",
+      "brunch_restaurant",
       "bar",
-      "food_store",
-      "store",
-      "food",
       "point_of_interest",
+      "food_store",
+      "food",
+      "store",
       "establishment"
     ],
     "location": {
@@ -274,20 +322,24 @@
       "text": "Scarlett Green",
       "languageCode": "en"
     },
-    "primaryType": "restaurant"
+    "primaryType": "restaurant",
+    "tags": [
+      "coffee",
+      "matcha"
+    ]
   },
   {
     "id": "ChIJv--cYNMEdkgRIyzGBHdY4CA",
     "types": [
       "cafe",
       "coffee_shop",
-      "breakfast_restaurant",
       "wine_bar",
+      "breakfast_restaurant",
       "bar",
-      "food_store",
       "restaurant",
-      "food",
       "point_of_interest",
+      "food_store",
+      "food",
       "store",
       "establishment"
     ],
@@ -299,15 +351,18 @@
       "text": "My Place Soho",
       "languageCode": "en"
     },
-    "primaryType": "cafe"
+    "primaryType": "cafe",
+    "tags": [
+      "coffee"
+    ]
   },
   {
     "id": "ChIJN6ouHdMEdkgRtkZxU06vadA",
     "types": [
       "tea_store",
+      "point_of_interest",
       "food_store",
       "food",
-      "point_of_interest",
       "store",
       "establishment"
     ],
@@ -319,23 +374,26 @@
       "text": "Algerian Coffee Stores",
       "languageCode": "en"
     },
-    "primaryType": "food_store"
+    "primaryType": "food_store",
+    "tags": [
+      "coffee"
+    ]
   },
   {
     "id": "ChIJ8c2lRkgFdkgRdXU-L_umuvA",
     "types": [
       "coffee_shop",
+      "pastry_shop",
       "chocolate_shop",
       "candy_store",
-      "pastry_shop",
-      "dessert_shop",
-      "bakery",
       "cafe",
+      "dessert_shop",
       "confectionery",
-      "food_store",
-      "store",
+      "bakery",
       "point_of_interest",
+      "food_store",
       "food",
+      "store",
       "establishment"
     ],
     "location": {
@@ -346,16 +404,20 @@
       "text": "Italian Bear Chocolate - Soho",
       "languageCode": "en"
     },
-    "primaryType": "food"
+    "primaryType": "food",
+    "tags": [
+      "coffee",
+      "bakery"
+    ]
   },
   {
     "id": "ChIJBbKU6NIEdkgRkC_IDZgxT1Y",
     "types": [
       "coffee_shop",
       "cafe",
+      "point_of_interest",
       "food_store",
       "food",
-      "point_of_interest",
       "store",
       "establishment"
     ],
@@ -367,14 +429,17 @@
       "text": "Bar Italia",
       "languageCode": "en"
     },
-    "primaryType": "coffee_shop"
+    "primaryType": "coffee_shop",
+    "tags": [
+      "coffee"
+    ]
   },
   {
     "id": "ChIJPQBQW1sFdkgRdkY2i8LFAR8",
     "types": [
       "cafe",
-      "food",
       "point_of_interest",
+      "food",
       "establishment"
     ],
     "location": {
@@ -385,7 +450,10 @@
       "text": "Tintico",
       "languageCode": "en"
     },
-    "primaryType": "cafe"
+    "primaryType": "cafe",
+    "tags": [
+      "coffee"
+    ]
   },
   {
     "id": "ChIJCxZ_bdMEdkgRvf2Zz7pIetQ",
@@ -393,8 +461,8 @@
       "sandwich_shop",
       "cafe",
       "restaurant",
-      "food",
       "point_of_interest",
+      "food",
       "establishment"
     ],
     "location": {
@@ -405,15 +473,18 @@
       "text": "Bar Bruno",
       "languageCode": "en"
     },
-    "primaryType": "sandwich_shop"
+    "primaryType": "sandwich_shop",
+    "tags": [
+      "coffee"
+    ]
   },
   {
     "id": "ChIJJ5pDcmkFdkgR2w7uBaVw4sk",
     "types": [
       "cafe",
       "tea_house",
-      "food",
       "point_of_interest",
+      "food",
       "establishment"
     ],
     "location": {
@@ -424,22 +495,28 @@
       "text": "NO.79 Coffee & Mousse",
       "languageCode": "en"
     },
-    "primaryType": "cafe"
+    "primaryType": "cafe",
+    "tags": [
+      "coffee",
+      "bubble_tea",
+      "bakery",
+      "matcha"
+    ]
   },
   {
     "id": "ChIJ87v_k9IEdkgR2vAfuejGjpA",
     "types": [
-      "tea_house",
-      "art_gallery",
       "pastry_shop",
-      "dessert_shop",
-      "bakery",
       "cafe",
+      "bakery",
+      "art_gallery",
+      "tea_house",
+      "dessert_shop",
       "confectionery",
       "food_store",
-      "store",
-      "point_of_interest",
       "food",
+      "point_of_interest",
+      "store",
       "establishment"
     ],
     "location": {
@@ -450,7 +527,10 @@
       "text": "Maison Bertaux",
       "languageCode": "en"
     },
-    "primaryType": "pastry_shop"
+    "primaryType": "pastry_shop",
+    "tags": [
+      "bakery"
+    ]
   },
   {
     "id": "ChIJ21yEZR0FdkgRDJb6GVChXZs",
@@ -458,9 +538,9 @@
       "dessert_shop",
       "confectionery",
       "food_store",
-      "store",
-      "point_of_interest",
       "food",
+      "point_of_interest",
+      "store",
       "establishment"
     ],
     "location": {
@@ -471,7 +551,10 @@
       "text": "Cr\u00e8me",
       "languageCode": "en"
     },
-    "primaryType": "dessert_shop"
+    "primaryType": "dessert_shop",
+    "tags": [
+      "bakery"
+    ]
   },
   {
     "id": "ChIJHWa-dNMEdkgRPrA7N6PfDPY",
@@ -479,9 +562,9 @@
       "bakery",
       "cafe",
       "food_store",
-      "store",
-      "point_of_interest",
       "food",
+      "point_of_interest",
+      "store",
       "establishment"
     ],
     "location": {
@@ -492,27 +575,30 @@
       "text": "Cutter & Squidge",
       "languageCode": "en"
     },
-    "primaryType": "bakery"
+    "primaryType": "bakery",
+    "tags": [
+      "bakery"
+    ]
   },
   {
     "id": "ChIJGeN8WtMEdkgRm8DhT1Hvx9k",
     "types": [
       "bakery",
-      "sandwich_shop",
+      "cake_shop",
       "brunch_restaurant",
       "coffee_shop",
-      "breakfast_restaurant",
-      "meal_delivery",
-      "cake_shop",
       "cafe",
-      "food_store",
+      "breakfast_restaurant",
+      "sandwich_shop",
+      "meal_delivery",
       "food_delivery",
       "wholesaler",
-      "store",
-      "manufacturer",
+      "food_store",
       "restaurant",
-      "point_of_interest",
       "food",
+      "point_of_interest",
+      "manufacturer",
+      "store",
       "establishment"
     ],
     "location": {
@@ -523,16 +609,19 @@
       "text": "GAIL's Bakery Soho",
       "languageCode": "en"
     },
-    "primaryType": "bakery"
+    "primaryType": "bakery",
+    "tags": [
+      "bakery"
+    ]
   },
   {
     "id": "ChIJ0TJxcpQFdkgRK4IqxBgXxdI",
     "types": [
       "bakery",
       "food_store",
-      "store",
-      "point_of_interest",
       "food",
+      "point_of_interest",
+      "store",
       "establishment"
     ],
     "location": {
@@ -543,16 +632,19 @@
       "text": "The Hummingbird Bakery | Soho",
       "languageCode": "en"
     },
-    "primaryType": "bakery"
+    "primaryType": "bakery",
+    "tags": [
+      "bakery"
+    ]
   },
   {
     "id": "ChIJy_XlT14FdkgRF9XT9D5gRPQ",
     "types": [
       "bakery",
       "food_store",
-      "store",
-      "point_of_interest",
       "food",
+      "point_of_interest",
+      "store",
       "establishment"
     ],
     "location": {
@@ -563,16 +655,19 @@
       "text": "Buns From Home",
       "languageCode": "en"
     },
-    "primaryType": "bakery"
+    "primaryType": "bakery",
+    "tags": [
+      "bakery"
+    ]
   },
   {
     "id": "ChIJDfpg7ssFdkgR83CQhieAvkc",
     "types": [
       "bakery",
       "food_store",
-      "store",
-      "point_of_interest",
       "food",
+      "point_of_interest",
+      "store",
       "establishment"
     ],
     "location": {
@@ -583,21 +678,24 @@
       "text": "Panadera Soho",
       "languageCode": "en"
     },
-    "primaryType": "bakery"
+    "primaryType": "bakery",
+    "tags": [
+      "bakery"
+    ]
   },
   {
     "id": "ChIJ8TT6UAIFdkgRw8MyRceu7bI",
     "types": [
       "bagel_shop",
-      "sandwich_shop",
       "coffee_shop",
-      "bakery",
       "cafe",
+      "sandwich_shop",
+      "bakery",
       "food_store",
-      "store",
       "restaurant",
-      "point_of_interest",
       "food",
+      "point_of_interest",
+      "store",
       "establishment"
     ],
     "location": {
@@ -608,7 +706,10 @@
       "text": "B Bagel Soho",
       "languageCode": "en"
     },
-    "primaryType": "bagel_shop"
+    "primaryType": "bagel_shop",
+    "tags": [
+      "bakery"
+    ]
   },
   {
     "id": "ChIJfbGiUxMFdkgRzRqot1E0lDs",
@@ -627,16 +728,20 @@
       "text": "L'ETO Compton Edition",
       "languageCode": "en"
     },
-    "primaryType": "dessert_restaurant"
+    "primaryType": "dessert_restaurant",
+    "tags": [
+      "bakery",
+      "matcha"
+    ]
   },
   {
     "id": "ChIJAZ5daM0EdkgRGwjHCHoktPE",
     "types": [
       "bakery",
       "food_store",
-      "store",
-      "point_of_interest",
       "food",
+      "point_of_interest",
+      "store",
       "establishment"
     ],
     "location": {
@@ -647,7 +752,10 @@
       "text": "Fabrique",
       "languageCode": "en"
     },
-    "primaryType": "bakery"
+    "primaryType": "bakery",
+    "tags": [
+      "bakery"
+    ]
   },
   {
     "id": "ChIJb9u02J4FdkgRIyszCw9-LPM",
@@ -655,9 +763,9 @@
       "cafe",
       "bakery",
       "food_store",
-      "store",
-      "point_of_interest",
       "food",
+      "point_of_interest",
+      "store",
       "establishment"
     ],
     "location": {
@@ -668,16 +776,19 @@
       "text": "Cafe de Nata",
       "languageCode": "en"
     },
-    "primaryType": "cafe"
+    "primaryType": "cafe",
+    "tags": [
+      "bakery"
+    ]
   },
   {
     "id": "ChIJPXN_fNIEdkgRg6DhnlDgPMU",
     "types": [
       "bakery",
       "food_store",
-      "store",
-      "point_of_interest",
       "food",
+      "point_of_interest",
+      "store",
       "establishment"
     ],
     "location": {
@@ -688,7 +799,10 @@
       "text": "Chinatown Bakery",
       "languageCode": "en"
     },
-    "primaryType": "bakery"
+    "primaryType": "bakery",
+    "tags": [
+      "bakery"
+    ]
   },
   {
     "id": "ChIJ9aGfI5kFdkgRgxcS9rC8Do4",
@@ -698,9 +812,9 @@
       "cafe",
       "confectionery",
       "food_store",
-      "store",
-      "point_of_interest",
       "food",
+      "point_of_interest",
+      "store",
       "establishment"
     ],
     "location": {
@@ -711,16 +825,19 @@
       "text": "Cocomelt London",
       "languageCode": "en"
     },
-    "primaryType": "dessert_shop"
+    "primaryType": "dessert_shop",
+    "tags": [
+      "bakery"
+    ]
   },
   {
     "id": "ChIJhTCzltIEdkgRgMCt63jRGAU",
     "types": [
       "bakery",
       "food_store",
-      "store",
-      "point_of_interest",
       "food",
+      "point_of_interest",
+      "store",
       "establishment"
     ],
     "location": {
@@ -731,7 +848,10 @@
       "text": "Patisserie Francaise",
       "languageCode": "en"
     },
-    "primaryType": "bakery"
+    "primaryType": "bakery",
+    "tags": [
+      "bakery"
+    ]
   },
   {
     "id": "ChIJm3Nr5hsFdkgRYVqoHAbXgdQ",
@@ -740,9 +860,9 @@
       "coffee_shop",
       "cafe",
       "food_store",
-      "store",
-      "point_of_interest",
       "food",
+      "point_of_interest",
+      "store",
       "establishment"
     ],
     "location": {
@@ -753,21 +873,24 @@
       "text": "Ole & Steen",
       "languageCode": "en"
     },
-    "primaryType": "bakery"
+    "primaryType": "bakery",
+    "tags": [
+      "bakery"
+    ]
   },
   {
     "id": "ChIJfxqqSdMEdkgRV0mA1f8FbeM",
     "types": [
-      "tea_house",
       "pastry_shop",
-      "dessert_shop",
-      "bakery",
       "cafe",
+      "bakery",
+      "tea_house",
+      "dessert_shop",
       "confectionery",
       "food_store",
-      "store",
-      "point_of_interest",
       "food",
+      "point_of_interest",
+      "store",
       "establishment"
     ],
     "location": {
@@ -778,65 +901,20 @@
       "text": "Kova Patisserie Soho",
       "languageCode": "en"
     },
-    "primaryType": "pastry_shop"
-  },
-  {
-    "id": "ChIJMYMQotMEdkgR6212VjHhjHM",
-    "types": [
-      "ice_cream_shop",
-      "vegan_restaurant",
-      "vegetarian_restaurant",
-      "cafe",
-      "dessert_shop",
-      "restaurant",
-      "tea_store",
-      "confectionery",
-      "food_store",
-      "store",
-      "food",
-      "point_of_interest",
-      "establishment"
-    ],
-    "location": {
-      "latitude": 51.5120023,
-      "longitude": -0.12900029999999998
-    },
-    "displayName": {
-      "text": "Tsujiri Chinatown",
-      "languageCode": "en"
-    },
-    "primaryType": "ice_cream_shop"
-  },
-  {
-    "id": "ChIJN16p1UUbdkgRTuyXr3hwQDU",
-    "types": [
-      "coffee_shop",
-      "cafe",
-      "food_store",
-      "store",
-      "food",
-      "point_of_interest",
-      "establishment"
-    ],
-    "location": {
-      "latitude": 51.516583999999995,
-      "longitude": -0.1348038
-    },
-    "displayName": {
-      "text": "Omotesando Koffee",
-      "languageCode": "en"
-    },
-    "primaryType": "coffee_shop"
+    "primaryType": "pastry_shop",
+    "tags": [
+      "bakery"
+    ]
   },
   {
     "id": "ChIJ9WFepnAFdkgRS9M935iw4H4",
     "types": [
       "coffee_shop",
       "cafe",
-      "food_store",
-      "store",
-      "food",
       "point_of_interest",
+      "food_store",
+      "food",
+      "store",
       "establishment"
     ],
     "location": {
@@ -847,14 +925,47 @@
       "text": "The Lobby Cafe",
       "languageCode": "en"
     },
-    "primaryType": "coffee_shop"
+    "primaryType": "coffee_shop",
+    "tags": [
+      "matcha"
+    ]
+  },
+  {
+    "id": "ChIJMYMQotMEdkgR6212VjHhjHM",
+    "types": [
+      "ice_cream_shop",
+      "tea_store",
+      "vegan_restaurant",
+      "vegetarian_restaurant",
+      "cafe",
+      "dessert_shop",
+      "confectionery",
+      "restaurant",
+      "point_of_interest",
+      "food_store",
+      "food",
+      "store",
+      "establishment"
+    ],
+    "location": {
+      "latitude": 51.5120023,
+      "longitude": -0.12900029999999998
+    },
+    "displayName": {
+      "text": "Tsujiri Chinatown",
+      "languageCode": "en"
+    },
+    "primaryType": "ice_cream_shop",
+    "tags": [
+      "matcha"
+    ]
   },
   {
     "id": "ChIJT8TX0IIFdkgR3RaSyfAs2LM",
     "types": [
       "cafe",
-      "food",
       "point_of_interest",
+      "food",
       "establishment"
     ],
     "location": {
@@ -865,14 +976,41 @@
       "text": "Amelia",
       "languageCode": "en"
     },
-    "primaryType": "cafe"
+    "primaryType": "cafe",
+    "tags": [
+      "matcha"
+    ]
+  },
+  {
+    "id": "ChIJN16p1UUbdkgRTuyXr3hwQDU",
+    "types": [
+      "coffee_shop",
+      "cafe",
+      "point_of_interest",
+      "food_store",
+      "food",
+      "store",
+      "establishment"
+    ],
+    "location": {
+      "latitude": 51.516583999999995,
+      "longitude": -0.1348038
+    },
+    "displayName": {
+      "text": "Omotesando Koffee",
+      "languageCode": "en"
+    },
+    "primaryType": "coffee_shop",
+    "tags": [
+      "matcha"
+    ]
   },
   {
     "id": "ChIJhVBIm2AFdkgRe9fUbPJSvdc",
     "types": [
       "restaurant",
-      "food",
       "point_of_interest",
+      "food",
       "establishment"
     ],
     "location": {
@@ -883,17 +1021,20 @@
       "text": "The Soho Social",
       "languageCode": "en"
     },
-    "primaryType": "restaurant"
+    "primaryType": "restaurant",
+    "tags": [
+      "matcha"
+    ]
   },
   {
     "id": "ChIJeaim7XwFdkgRLgvdRyS7kSI",
     "types": [
       "coffee_shop",
       "cafe",
-      "food_store",
-      "store",
-      "food",
       "point_of_interest",
+      "food_store",
+      "food",
+      "store",
       "establishment"
     ],
     "location": {
@@ -904,19 +1045,22 @@
       "text": "Owners Club Caf\u00e9 by Represent",
       "languageCode": "en"
     },
-    "primaryType": "coffee_shop"
+    "primaryType": "coffee_shop",
+    "tags": [
+      "matcha"
+    ]
   },
   {
     "id": "ChIJj-TS1NIFdkgR7xWK7c3mvTk",
     "types": [
       "pastry_shop",
       "dessert_shop",
-      "bakery",
       "confectionery",
-      "food_store",
-      "store",
-      "food",
+      "bakery",
       "point_of_interest",
+      "food_store",
+      "food",
+      "store",
       "establishment"
     ],
     "location": {
@@ -927,17 +1071,20 @@
       "text": "Sakurado Japanese Patisserie Soho",
       "languageCode": "en"
     },
-    "primaryType": "pastry_shop"
+    "primaryType": "pastry_shop",
+    "tags": [
+      "matcha"
+    ]
   },
   {
     "id": "ChIJwxkr-IoFdkgRUqZcMWn-zk0",
     "types": [
       "coffee_shop",
       "cafe",
-      "food_store",
-      "store",
-      "food",
       "point_of_interest",
+      "food_store",
+      "food",
+      "store",
       "establishment"
     ],
     "location": {
@@ -948,28 +1095,31 @@
       "text": "ada",
       "languageCode": "en"
     },
-    "primaryType": "coffee_shop"
+    "primaryType": "coffee_shop",
+    "tags": [
+      "matcha"
+    ]
   },
   {
     "id": "ChIJk2UWIvAFdkgR33KDAPddWl4",
     "types": [
-      "ice_cream_shop",
-      "acai_shop",
-      "brunch_restaurant",
-      "breakfast_restaurant",
       "halal_restaurant",
-      "vegan_restaurant",
-      "vegetarian_restaurant",
       "coffee_shop",
+      "vegan_restaurant",
+      "ice_cream_shop",
+      "vegetarian_restaurant",
       "cafe",
+      "breakfast_restaurant",
       "dessert_shop",
+      "brunch_restaurant",
+      "confectionery",
+      "acai_shop",
       "brazilian_restaurant",
       "restaurant",
-      "confectionery",
-      "food_store",
-      "store",
-      "food",
       "point_of_interest",
+      "food_store",
+      "food",
+      "store",
       "establishment"
     ],
     "location": {
@@ -980,19 +1130,22 @@
       "text": "OAKBERRY ACAI | Soho",
       "languageCode": "en"
     },
-    "primaryType": "restaurant"
+    "primaryType": "restaurant",
+    "tags": [
+      "matcha"
+    ]
   },
   {
     "id": "ChIJ54rhTjIFdkgRjN2Tk1B17xM",
     "types": [
       "dessert_shop",
+      "confectionery",
       "bakery",
       "restaurant",
-      "confectionery",
-      "food_store",
-      "store",
-      "food",
       "point_of_interest",
+      "food_store",
+      "food",
+      "store",
       "establishment"
     ],
     "location": {
@@ -1003,7 +1156,10 @@
       "text": "Fuwa Fuwa Caf\u00e9",
       "languageCode": "en"
     },
-    "primaryType": "restaurant"
+    "primaryType": "restaurant",
+    "tags": [
+      "matcha"
+    ]
   },
   {
     "id": "ChIJ66B-GhEFdkgRBf3t_P4ZLC0",
@@ -1020,7 +1176,10 @@
       "text": "BOBA",
       "languageCode": "en"
     },
-    "primaryType": "tea_house"
+    "primaryType": "tea_house",
+    "tags": [
+      "bubble_tea"
+    ]
   },
   {
     "id": "ChIJ3zSE2k8FdkgRZ1Jq0buMUEs",
@@ -1037,7 +1196,10 @@
       "text": "AUNTEA JENNY",
       "languageCode": "en"
     },
-    "primaryType": "tea_house"
+    "primaryType": "tea_house",
+    "tags": [
+      "bubble_tea"
+    ]
   },
   {
     "id": "ChIJh5P9S8cFdkgRGTFYlIckjJA",
@@ -1054,7 +1216,10 @@
       "text": "Xing Fu Tang",
       "languageCode": "en"
     },
-    "primaryType": "tea_house"
+    "primaryType": "tea_house",
+    "tags": [
+      "bubble_tea"
+    ]
   },
   {
     "id": "ChIJVYqEw-AFdkgRGmC6YOYe0E0",
@@ -1071,7 +1236,10 @@
       "text": "HEYTEA (SOHO)",
       "languageCode": "en"
     },
-    "primaryType": "tea_house"
+    "primaryType": "tea_house",
+    "tags": [
+      "bubble_tea"
+    ]
   },
   {
     "id": "ChIJW5QSbgwFdkgRtfyTcOX7XMI",
@@ -1088,7 +1256,10 @@
       "text": "Milksha",
       "languageCode": "en"
     },
-    "primaryType": "tea_house"
+    "primaryType": "tea_house",
+    "tags": [
+      "bubble_tea"
+    ]
   },
   {
     "id": "ChIJa6RbfQAFdkgR8Ux5xntQ-ls",
@@ -1105,7 +1276,10 @@
       "text": "ChaHalo - London",
       "languageCode": "en"
     },
-    "primaryType": "tea_house"
+    "primaryType": "tea_house",
+    "tags": [
+      "bubble_tea"
+    ]
   },
   {
     "id": "ChIJ03LqVgAFdkgRNhGWEPQiMmQ",
@@ -1122,7 +1296,10 @@
       "text": "Molly Tea (Chinatown)",
       "languageCode": "en"
     },
-    "primaryType": "tea_house"
+    "primaryType": "tea_house",
+    "tags": [
+      "bubble_tea"
+    ]
   },
   {
     "id": "ChIJnbRZatsFdkgRitZ9nX9BYSc",
@@ -1139,16 +1316,19 @@
       "text": "Lucky Tea (Chinatown)",
       "languageCode": "en"
     },
-    "primaryType": "tea_house"
+    "primaryType": "tea_house",
+    "tags": [
+      "bubble_tea"
+    ]
   },
   {
     "id": "ChIJ68ovBHwFdkgRvbQ60kzo5y0",
     "types": [
-      "cosmetics_store",
       "tea_house",
+      "cosmetics_store",
       "toy_store",
-      "point_of_interest",
       "store",
+      "point_of_interest",
       "establishment"
     ],
     "location": {
@@ -1159,7 +1339,10 @@
       "text": "KISSATEN \ud80c\udce6 | FUYU \u25d2",
       "languageCode": "en"
     },
-    "primaryType": "tea_house"
+    "primaryType": "tea_house",
+    "tags": [
+      "bubble_tea"
+    ]
   },
   {
     "id": "ChIJKy26W-0bdkgRyWSzTSTMpvk",
@@ -1169,9 +1352,9 @@
       "dessert_shop",
       "confectionery",
       "food_store",
+      "store",
       "food",
       "point_of_interest",
-      "store",
       "establishment"
     ],
     "location": {
@@ -1182,7 +1365,10 @@
       "text": "Charlie's Tea",
       "languageCode": "en"
     },
-    "primaryType": "tea_house"
+    "primaryType": "tea_house",
+    "tags": [
+      "bubble_tea"
+    ]
   },
   {
     "id": "ChIJT6Mch80EdkgRDaXVNa0tyDg",
@@ -1199,7 +1385,10 @@
       "text": "Cuppacha",
       "languageCode": "en"
     },
-    "primaryType": "tea_house"
+    "primaryType": "tea_house",
+    "tags": [
+      "bubble_tea"
+    ]
   },
   {
     "id": "ChIJsU5Uf9MFdkgRCD-WkkncV0I",
@@ -1216,20 +1405,23 @@
       "text": "Yunique Bubble Tea",
       "languageCode": "en"
     },
-    "primaryType": "tea_house"
+    "primaryType": "tea_house",
+    "tags": [
+      "bubble_tea"
+    ]
   },
   {
     "id": "ChIJF4OFca0FdkgR_x1WjOl-OjI",
     "types": [
       "dessert_shop",
       "coffee_shop",
-      "bakery",
       "cafe",
+      "bakery",
       "confectionery",
       "food_store",
+      "store",
       "food",
       "point_of_interest",
-      "store",
       "establishment"
     ],
     "location": {
@@ -1240,7 +1432,10 @@
       "text": "Coco Playa",
       "languageCode": "en"
     },
-    "primaryType": "dessert_shop"
+    "primaryType": "dessert_shop",
+    "tags": [
+      "bubble_tea"
+    ]
   },
   {
     "id": "ChIJHwY6SAAFdkgRymFbvbTN5z8",
@@ -1257,7 +1452,10 @@
       "text": "ChaTraMue - The Original Thai Tea",
       "languageCode": "en"
     },
-    "primaryType": "tea_house"
+    "primaryType": "tea_house",
+    "tags": [
+      "bubble_tea"
+    ]
   },
   {
     "id": "ChIJfXs7XTsFdkgRfloXsiyCI-I",
@@ -1274,7 +1472,10 @@
       "text": "Woo Tea",
       "languageCode": "en"
     },
-    "primaryType": "tea_house"
+    "primaryType": "tea_house",
+    "tags": [
+      "bubble_tea"
+    ]
   },
   {
     "id": "ChIJGW-US9IEdkgRmf4jfOozR64",
@@ -1283,10 +1484,10 @@
       "ice_cream_shop",
       "confectionery",
       "food_store",
+      "store",
       "restaurant",
       "food",
       "point_of_interest",
-      "store",
       "establishment"
     ],
     "location": {
@@ -1297,6 +1498,9 @@
       "text": "Bubblewrap Dessert Shop Chinatown",
       "languageCode": "en"
     },
-    "primaryType": "dessert_shop"
+    "primaryType": "dessert_shop",
+    "tags": [
+      "bubble_tea"
+    ]
   }
 ]

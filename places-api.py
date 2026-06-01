@@ -15,16 +15,16 @@ def get_places():
         "X-Goog-FieldMask": "places.id,places.displayName,places.location,places.primaryType,places.types"
     }
     
-    queries = [
-        "coffee shop near Soho Square London",
-        "bakery near Soho Square London",
-        "matcha cafe near Soho Square London",
-        "bubble tea near Soho Square London"
-    ]
+    queries = {
+        "coffee": "coffee shop near Soho Square London",
+        "bakery": "bakery near Soho Square London",
+        "matcha": "matcha cafe near Soho Square London",
+        "bubble_tea": "bubble tea near Soho Square London"
+    }
     
     all_places = {}
 
-    for query in queries:
+    for tag, query in queries.items():
         payload = {
             "textQuery": query,
             "locationRestriction": {
@@ -40,14 +40,24 @@ def get_places():
             if response.status_code == 200:
                 places = response.json().get("places", [])
                 for place in places:
-                    all_places[place["id"]] = place
+                    place_id = place["id"]
+                    
+                    if place_id not in all_places:
+                        place["tags"] = set()
+                        all_places[place_id] = place
+                    
+                    all_places[place_id]["tags"].add(tag)
+                    
             else:
                 print(f"❌ Error fetching '{query}': {response.status_code}")
         except requests.exceptions.HTTPError as err:
             print(f"Skipping query due to error: {err}")
 
+    for place in all_places.values():
+        place["tags"] = list(place["tags"])
+
     unique_places = list(all_places.values())
-    print(f"✅ Success! Ingested {len(unique_places)} unique places from Soho Square.")
+    print(f"✅ Success! Ingested {len(unique_places)} unique places with query-based tags.")
 
     os.makedirs("public", exist_ok=True)
     with open("public/venues.json", "w", encoding="utf-8") as f:
