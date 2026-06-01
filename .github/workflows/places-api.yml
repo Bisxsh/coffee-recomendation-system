@@ -2,7 +2,7 @@ name: Daily Soho Places Sync
 
 on:
   schedule:
-    - cron: "0 3 * * *" # Executes daily at 3:00 AM UTC
+    - cron: "0 23 * * 0" # Executes at 23:00 UTC
   workflow_dispatch:
 
 permissions:
