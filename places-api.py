@@ -12,13 +12,35 @@ def get_places():
     headers = {
         "Content-Type": "application/json",
         "X-Goog-Api-Key": api_key,
-        "X-Goog-FieldMask": "places.id,places.displayName,places.location,places.primaryType,places.types"
+        "X-Goog-FieldMask": (
+            "places.id,"
+            "places.displayName,"
+            "places.location,"
+            "places.primaryType,"
+            "places.types,"
+            "places.rating,"
+            "places.userRatingCount,"
+            "places.currentOpeningHours,"
+            "places.editorialSummary,"
+            "places.generativeSummary,"
+            "places.reviews,"
+            "places.shortFormattedAddress,"
+            "places.postalAddress,"
+            "places.googleMapsUri,"
+            "places.websiteUri,"
+            "places.photos,"
+            "places.priceLevel,"
+            "places.reviewSummary,"
+            "places.consumerAlert,"
+            "places.takeout,"
+            "places.servesCoffee"
+        )
     }
     
     queries = {
-        "coffee": "coffee shop near Soho Square London",
+        "coffee": "coffee near Soho Square London",
         "bakery": "bakery near Soho Square London",
-        "matcha": "matcha cafe near Soho Square London",
+        "matcha": "matcha near Soho Square London",
         "bubble_tea": "bubble tea near Soho Square London"
     }
     
@@ -37,6 +59,7 @@ def get_places():
 
         try:
             response = requests.post(url, json=payload, headers=headers)
+            
             if response.status_code == 200:
                 places = response.json().get("places", [])
                 for place in places:
@@ -47,11 +70,14 @@ def get_places():
                         all_places[place_id] = place
                     
                     all_places[place_id]["tags"].add(tag)
-                    
             else:
-                print(f"❌ Error fetching '{query}': {response.status_code}")
+                print(f"❌ Error fetching '{query}' | Status Code: {response.status_code}")
+                print(f"❌ Server Response Payload Error: {response.text}")
+                response.raise_for_status()
+                    
         except requests.exceptions.HTTPError as err:
-            print(f"Skipping query due to error: {err}")
+            print(f"Halted processing loop for '{query}' due to HTTP Error: {err}")
+            raise
 
     for place in all_places.values():
         place["tags"] = list(place["tags"])
