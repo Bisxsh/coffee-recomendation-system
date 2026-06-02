@@ -1,0 +1,36 @@
+name: Monthly TikTok Baseline Aggregator
+
+on:
+  schedule:
+    - cron: "0 0 1 * *"
+  workflow_dispatch:
+
+jobs:
+  run-monthly:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository data layer
+        uses: actions/checkout@v4
+
+      - name: Setup runtime engine environment
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Execute Scraper Daemon
+        env:
+          TIKTOK_SCRAPER_API_KEY: ${{ secrets.TIKTOK_SCRAPER_API_KEY }}
+          TIKTOK_SCRAPER_API_URL: ${{ secrets.TIKTOK_SCRAPER_API_URL }}
+          TIKTOK_SCRAPER_API_HOST: ${{ secrets.TIKTOK_SCRAPER_API_HOST }}
+        run: python get_tiktok_data.py --mode monthly
+
+      - name: Commit and flush updated historical baseline
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action Bot"
+          git add public/tiktok_spots.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "data: monthly historical baseline merge" && git push)
